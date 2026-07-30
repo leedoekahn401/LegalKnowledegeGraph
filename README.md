@@ -1,4 +1,3 @@
-```mermaid
 graph TD
     %% Định nghĩa các Actor
     User((Người dùng))
@@ -18,7 +17,7 @@ graph TD
     subgraph "AWS Infrastructure"
         RDS[("AWS RDS<br/>(MySQL)")]
         S3[("AWS S3<br/>(Lưu trữ File)")]
-        SQS>["AWS SQS<br/>(Message Queue)"]
+        SQS["AWS SQS<br/>(Message Queue)"]
     end
 
     %% Khối Xử lý AI & Tải nặng
@@ -67,4 +66,3 @@ graph TD
     class RDS,S3,SQS aws;
     class PY python;
     class KG database;
-```

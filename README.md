@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     %% Định nghĩa các Actor
     User((Người dùng))
@@ -66,3 +67,4 @@ graph TD
     class RDS,S3,SQS aws;
     class PY python;
     class KG database;
+```
